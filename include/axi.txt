@@ -1,0 +1,28 @@
+// clock and reset
+    logic          ACLK; i!
+    logic          ARESETN; i!
+    // Read address signals
+    logic [31:0]   ARADDR; o
+    logic          ARVALID; o
+    logic          ARREADY; i
+    // Read data signals
+    logic [31:0]   RDATA; i
+    logic          RVALID; i
+    logic          RREADY; o
+    logic [ 1:0]   RRESP; i
+
+    // Write address signals
+    logic [31:0]   AWADDR; o
+    logic          AWVALID; o
+    logic          AWREADY; i
+    
+    // Write data signals
+    logic [31:0]   WDATA;  o
+    logic          WVALID; o
+    logic          WREADY; i
+    logic [ 3:0]   WSTRB; o
+    
+    // Write response signals
+    logic          BREADY; o
+    logic [ 1:0]   BRESP; i
+    logic          BVALID; i

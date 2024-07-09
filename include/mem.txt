@@ -1,0 +1,8 @@
+logic               clk; i!
+    logic               resetn; i!
+    logic               valid; o
+    logic               ready; i
+    logic   [ 3:0]      wstrb; o
+    logic   [31:0]      addr; o
+    logic   [31:0]      wdata; o
+    logic   [31:0]      rdata; i
