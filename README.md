@@ -1,0 +1,1 @@
+This repository contains AXI4 Lite slave/master adapters implemented in Verilog and SystemVerilog along with a verification testbench. The testbench is a work in progress. The slave adapter has been used on a Zynq 7020 SoC to connected an FPGA module to the PS and worked perfectly.
